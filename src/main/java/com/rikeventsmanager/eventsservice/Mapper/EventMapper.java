@@ -5,6 +5,7 @@ import com.rikeventsmanager.eventsservice.Model.Event;
 
 import java.util.*;
 
+
 public class EventMapper {
     public static EventDto mapToEventDto(Event event) {
         return new EventDto(
